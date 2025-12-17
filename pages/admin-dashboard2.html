@@ -1,0 +1,121 @@
+<div class="container-fluid py-5">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="fw-bold mb-4">
+                <i class="bi bi-shield-lock me-2"></i>Admin Dashboard
+            </h1>
+            
+            <!-- Stats Cards -->
+            <div class="row mb-4">
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-muted small mb-1">Tổng phần mềm</p>
+                                    <h3 class="fw-bold mb-0" id="total-software">0</h3>
+                                </div>
+                                <i class="bi bi-archive fs-3 text-primary opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-muted small mb-1">Tổng downloads</p>
+                                    <h3 class="fw-bold mb-0" id="total-downloads">0</h3>
+                                </div>
+                                <i class="bi bi-download fs-3 text-success opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-muted small mb-1">Đánh giá trung bình</p>
+                                    <h3 class="fw-bold mb-0" id="avg-rating">0</h3>
+                                </div>
+                                <i class="bi bi-star-fill fs-3 text-warning opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-muted small mb-1">Người dùng</p>
+                                    <h3 class="fw-bold mb-0" id="total-users">1</h3>
+                                </div>
+                                <i class="bi bi-people fs-3 text-info opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Management Section -->
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-header bg-light border-0">
+                            <h5 class="mb-0 fw-bold">Quản lý phần mềm</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted">Xem, chỉnh sửa hoặc xóa phần mềm trong hệ thống</p>
+                            <button class="btn btn-primary" onclick="window.location.hash='all-software'">
+                                <i class="bi bi-list me-2"></i>Xem danh sách
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-header bg-light border-0">
+                            <h5 class="mb-0 fw-bold">Quản lý người dùng</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted">Quản lý tài khoản người dùng và quyền hạn</p>
+                            <button class="btn btn-primary" disabled>
+                                <i class="bi bi-people me-2"></i>Quản lý người dùng
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Software List -->
+            <div class="card border-0 shadow-soft">
+                <div class="card-header bg-light border-0">
+                    <h5 class="mb-0 fw-bold">Danh sách phần mềm</h5>
+                </div>
+                <div class="card-body">
+                    <div id="software-list-admin" class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Tên phần mềm</th>
+                                    <th>Danh mục</th>
+                                    <th>Đánh giá</th>
+                                    <th>Tải xuống</th>
+                                    <th>Hành động</th>
+                                </tr>
+                            </thead>
+                            <tbody id="admin-software-tbody">
+                                <!-- Software items will be loaded here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

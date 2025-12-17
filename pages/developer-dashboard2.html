@@ -1,0 +1,104 @@
+<div class="container-fluid py-5">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="fw-bold mb-4">
+                <i class="bi bi-code-square me-2"></i>Developer Dashboard
+            </h1>
+            
+            <!-- Stats Cards -->
+            <div class="row mb-4">
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-muted small mb-1">Phần mềm của tôi</p>
+                                    <h3 class="fw-bold mb-0" id="my-software-count">0</h3>
+                                </div>
+                                <i class="bi bi-collection fs-3 text-primary opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-muted small mb-1">Tổng downloads</p>
+                                    <h3 class="fw-bold mb-0" id="my-downloads">0</h3>
+                                </div>
+                                <i class="bi bi-download fs-3 text-success opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-muted small mb-1">Đánh giá trung bình</p>
+                                    <h3 class="fw-bold mb-0" id="my-rating">0</h3>
+                                </div>
+                                <i class="bi bi-star-fill fs-3 text-warning opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <p class="text-muted small mb-1">Doanh thu (tháng này)</p>
+                                    <h3 class="fw-bold mb-0" id="revenue">$0.00</h3>
+                                </div>
+                                <i class="bi bi-cash-coin fs-3 text-info opacity-50"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="row mb-4">
+                <div class="col-md-6 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <h5 class="fw-bold mb-3">Tải lên phần mềm mới</h5>
+                            <p class="text-muted">Thêm một phần mềm mới vào cửa hàng</p>
+                            <button class="btn btn-success" disabled>
+                                <i class="bi bi-cloud-upload me-2"></i>Tải lên
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card border-0 shadow-soft">
+                        <div class="card-body">
+                            <h5 class="fw-bold mb-3">Xem chi tiết hoạt động</h5>
+                            <p class="text-muted">Theo dõi tải xuống, đánh giá và phản hồi</p>
+                            <button class="btn btn-primary" disabled>
+                                <i class="bi bi-graph-up me-2"></i>Xem chi tiết
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- My Software List -->
+            <div class="card border-0 shadow-soft">
+                <div class="card-header bg-light border-0">
+                    <h5 class="mb-0 fw-bold">Phần mềm của tôi</h5>
+                </div>
+                <div class="card-body">
+                    <div id="my-software-list" class="row">
+                        <!-- My software items will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
