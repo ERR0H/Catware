@@ -1,0 +1,144 @@
+{
+  "software": [
+    {
+      "id": 1,
+      "name": "DesignPro 2023",
+      "category": "design",
+      "description": "Phần mềm thiết kế đồ họa chuyên nghiệp với AI tích hợp",
+      "longDescription": "DesignPro 2023 là một phần mềm thiết kế đồ họa toàn diện được phát triển cho các nhà thiết kế chuyên nghiệp và người dùng nâng cao. Với giao diện trực quan và các công cụ mạnh mẽ, bạn có thể tạo ra các tác phẩm tuyệt đẹp từ lôgô, poster, đến thiết kế web. Tính năng AI tích hợp giúp tự động hóa các tác vụ phổ biến, tiết kiệm thời gian và nâng cao năng suất.",
+      "price": 49.99,
+      "rating": 4.8,
+      "downloads": 12500,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      "features": [
+        "Hỗ trợ nhiều định dạng file",
+        "Công cụ chỉnh sửa nâng cao",
+        "Thư viện template phong phú",
+        "Tích hợp AI tự động",
+        "Xuất bản đa nền tảng"
+      ],
+      "developer": {
+        "name": "DesignStudio Inc",
+        "website": "https://example.com",
+        "supportEmail": "support@designstudio.com"
+      },
+      "requirements": {
+        "os": "Windows 10+, macOS 10.15+, Linux",
+        "ram": "8GB",
+        "disk": "2GB"
+      }
+    },
+    {
+      "id": 2,
+      "name": "CodeMaster IDE",
+      "category": "development",
+      "description": "Môi trường phát triển tích hợp thông minh cho lập trình viên",
+      "longDescription": "CodeMaster IDE là một môi trường phát triển tích hợp (IDE) mạnh mẽ và linh hoạt, được thiết kế đặc biệt cho các lập trình viên chuyên nghiệp. Hỗ trợ hàng chục ngôn ngữ lập trình, với các tính năng như gỡ lỗi tích hợp, quản lý phiên bản, và kiểm tra mã tự động.",
+      "price": 0,
+      "rating": 4.9,
+      "downloads": 89200,
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      "features": [
+        "Hỗ trợ 50+ ngôn ngữ lập trình",
+        "Gỡ lỗi tích hợp mạnh mẽ",
+        "Quản lý dự án dễ dàng",
+        "Mở rộng và plugin hưởng thụ",
+        "Hoàn toàn miễn phí và mã nguồn mở"
+      ],
+      "developer": {
+        "name": "CodeMaster Community",
+        "website": "https://codemaster.dev",
+        "supportEmail": "support@codemaster.dev"
+      },
+      "requirements": {
+        "os": "Windows 7+, macOS 10.12+, Linux",
+        "ram": "4GB",
+        "disk": "500MB"
+      }
+    },
+    {
+      "id": 3,
+      "name": "OfficeSuite Pro",
+      "category": "productivity",
+      "description": "Bộ ứng dụng văn phòng đầy đủ tính năng, hỗ trợ đám mây",
+      "longDescription": "OfficeSuite Pro cung cấp một bộ đầy đủ các ứng dụng văn phòng bao gồm xử lý văn bản, bảng tính, thuyết trình và quản lý cơ sở dữ liệu. Với tích hợp đám mây, bạn có thể làm việc từ bất kỳ nơi nào, đồng thời bảo vệ dữ liệu của mình.",
+      "price": 29.99,
+      "rating": 4.5,
+      "downloads": 45600,
+      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      "features": [
+        "Xử lý văn bản, bảng tính, thuyết trình",
+        "Tích hợp đám mây đầy đủ",
+        "Cộng tác theo thời gian thực",
+        "Xuất nhập định dạng Office",
+        "Bảo mật cao cấp"
+      ],
+      "developer": {
+        "name": "Office Global Ltd",
+        "website": "https://officeglobal.com",
+        "supportEmail": "support@officeglobal.com"
+      },
+      "requirements": {
+        "os": "Windows 8+, macOS 10.13+, Linux",
+        "ram": "6GB",
+        "disk": "1GB"
+      }
+    },
+    {
+      "id": 4,
+      "name": "MediaPlayer Ultimate",
+      "category": "entertainment",
+      "description": "Trình phát đa phương tiện hỗ trợ mọi định dạng file",
+      "longDescription": "MediaPlayer Ultimate là trình phát đa phương tiện toàn năng với hỗ trợ hơn 200 định dạng tập tin. Nó cung cấp chất lượng âm thanh và hình ảnh tuyệt vời, với các tính năng nâng cao như trích xuất âm thanh, tạo danh sách phát tùy chỉnh, và đồng bộ hóa phụ đề.",
+      "price": 19.99,
+      "rating": 4.3,
+      "downloads": 67800,
+      "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd8c4d43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      "features": [
+        "Hỗ trợ 200+ định dạng file",
+        "Chất lượng âm thanh lossless",
+        "Trích xuất âm thanh",
+        "Quản lý thư viện tự động",
+        "Trình phát toàn màn hình mượt mà"
+      ],
+      "developer": {
+        "name": "MediaTech Solutions",
+        "website": "https://mediatech.com",
+        "supportEmail": "support@mediatech.com"
+      },
+      "requirements": {
+        "os": "Windows 7+, macOS 10.10+, Linux",
+        "ram": "2GB",
+        "disk": "300MB"
+      }
+    },
+    {
+      "id": 5,
+      "name": "VideoEditor Pro",
+      "category": "design",
+      "description": "Phần mềm chỉnh sửa video chuyên nghiệp cho creator",
+      "longDescription": "VideoEditor Pro là một phần mềm chỉnh sửa video mạnh mẽ dành cho các nhà sáng tạo nội dung chuyên nghiệp. Cung cấp các công cụ chỉnh sửa tiên tiến, hiệu ứng hình ảnh phong phú, và tích hợp với các nền tảng truyền thông xã hội phổ biến.",
+      "price": 79.99,
+      "rating": 4.7,
+      "downloads": 23400,
+      "image": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      "features": [
+        "Timeline editing mượt mà",
+        "Hiệu ứng 4K",
+        "Chuyển tiếp chuyên nghiệp",
+        "Color grading nâng cao",
+        "Xuất đa định dạng"
+      ],
+      "developer": {
+        "name": "VideoCreator Studios",
+        "website": "https://videocreator.com",
+        "supportEmail": "support@videocreator.com"
+      },
+      "requirements": {
+        "os": "Windows 10+, macOS 10.15+",
+        "ram": "16GB",
+        "disk": "5GB"
+      }
+    }
+  ]
+}
