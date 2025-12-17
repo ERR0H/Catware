@@ -1,0 +1,43 @@
+<div class="auth-container py-5">
+    <div class="auth-card">
+        <div class="text-center mb-4">
+            <h2 class="fw-bold">Đăng ký</h2>
+            <p class="text-muted">Tạo tài khoản mới để bắt đầu</p>
+        </div>
+        
+        <form id="registerForm">
+            <div class="mb-3">
+                <label for="registerName" class="form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="registerName" placeholder="Nhập họ và tên" required>
+            </div>
+            
+            <div class="mb-3">
+                <label for="registerEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="registerEmail" placeholder="name@example.com" required>
+            </div>
+            
+            <div class="mb-3">
+                <label for="registerPassword" class="form-label">Mật khẩu</label>
+                <input type="password" class="form-control" id="registerPassword" placeholder="Nhập mật khẩu" required>
+                <small class="form-text text-muted">Tối thiểu 8 ký tự, bao gồm chữ hoa, chữ thường và số</small>
+            </div>
+            
+            <div class="mb-3">
+                <label for="registerConfirmPassword" class="form-label">Xác nhận mật khẩu</label>
+                <input type="password" class="form-control" id="registerConfirmPassword" placeholder="Xác nhận mật khẩu" required>
+            </div>
+            
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+                <label class="form-check-label" for="agreeTerms">Tôi đồng ý với <a href="#">Điều khoản dịch vụ</a></label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary w-100 mb-3">Đăng ký</button>
+            
+            <div class="text-center mt-4">
+                <span class="text-muted">Đã có tài khoản? </span>
+                <a href="#" data-page="login" class="text-decoration-none fw-medium">Đăng nhập ngay</a>
+            </div>
+        </form>
+    </div>
+</div>
